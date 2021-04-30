@@ -211,4 +211,11 @@
   color: white;
   margin-bottom: 16px;
   text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+#stuffed-animals-button {
+  padding: 8px 24px 8px 24px;
+  border-radius: 24px;
+  margin-bottom: 3rem;
 }
