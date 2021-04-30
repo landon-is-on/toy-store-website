@@ -199,3 +199,16 @@
   text-align: center;
   margin: 0 auto;
 }
+
+#stuffed-Animals {
+  background-color: #ffc12c;
+  margin: 5rem 1rem 1rem 1rem;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#stuffed-animals-p {
+  color: white;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
