@@ -239,3 +239,9 @@
   border-radius: 24px;
   margin-bottom: 3rem;
 }
+
+#stuffed-animals-header {
+  border-bottom: #a5c926;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
