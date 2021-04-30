@@ -185,7 +185,17 @@
   line-height: 40px;
   text-align: center;
   font-weight: 400px;
-
   font-style: normal;
   text-decoration: none;
+}
+
+#hero-intro-button {
+  background-color: #a5c926;
+  border-radius: 24px;
+  color: #fff;
+  padding: 12px, 28px, 12px, 28px;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  margin: 0 auto;
 }
