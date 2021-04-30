@@ -245,3 +245,8 @@
   font-size: 1.3rem;
   text-transform: capitalize;
 }
+
+#stuffed-animals-link {
+  display: inline-block;
+  text-transform: hidden;
+}
