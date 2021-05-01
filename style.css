@@ -260,18 +260,18 @@
   text-align: center;
   border-radius: 1rem;
   padding: 24px 24px 32px 24px;
-  margin: 80px 16px 16px 16px;
+  margin: 20px 16px 21px 16px;
 }
 
 #teddy-bear {
   padding-bottom: 1rem;
   padding-top: 1rem;
-
 }
 
 #product-teddy-p {
   text-transform: capitalize;
   padding-bottom: 0.2rem;
+  font-size: 1rem;
 }
 
 #product-teddy-button {
@@ -279,4 +279,5 @@
   color: white;
   border-radius: 1rem;
   padding: 2px 12px 2px 12px;
-  
+  font-size: 1rem;
+}
