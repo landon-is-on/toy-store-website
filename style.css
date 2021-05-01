@@ -308,3 +308,57 @@
   padding: 2px 12px 2px 12px;
   font-size: 1rem;
 }
+
+#product-cute-dog {
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 24px 24px 32px 24px;
+  margin: 20px 16px 21px 16px;
+}
+
+#cute-dog-pic {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#product-dog-p {
+  text-transform: capitalize;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+#product-dog-button {
+  background-color: #a5c926;
+  color: white;
+  border-radius: 1rem;
+  padding: 2px 12px 2px 12px;
+  font-size: 1rem;
+}
+
+#product-little-friend {
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 24px 24px 32px 24px;
+  margin: 20px 16px 21px 16px;
+}
+
+#little-friend-pic {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#product-friend-p {
+  text-transform: capitalize;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+#product-friend-button {
+  background-color: #a5c926;
+  color: white;
+  border-radius: 1rem;
+  padding: 2px 12px 2px 12px;
+  font-size: 1rem;
+}
