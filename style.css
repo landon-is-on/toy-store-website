@@ -281,3 +281,30 @@
   padding: 2px 12px 2px 12px;
   font-size: 1rem;
 }
+
+#product-mega-plush {
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 24px 24px 32px 24px;
+  margin: 20px 16px 21px 16px;
+}
+
+#mega-plush-pic {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#product-mega-p {
+  text-transform: capitalize;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+#product-mega-button {
+  background-color: #a5c926;
+  color: white;
+  border-radius: 1rem;
+  padding: 2px 12px 2px 12px;
+  font-size: 1rem;
+}
