@@ -361,3 +361,12 @@
   padding: 2px 12px 2px 12px;
   font-size: 1rem;
 }
+
+.second-banner {
+  background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
+    no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
