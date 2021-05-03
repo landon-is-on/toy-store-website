@@ -365,8 +365,27 @@
 .second-banner {
   background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
     no-repeat;
-  height: 100vh;
+  height: 69vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+#little-about {
+  position: absolute;
+  top: 280rem;
+  color: white;
+  left: 5em;
+  font-size: 1rem;
+}
+
+#watch-story-header {
+  position: absolute;
+  top: 284rem;
+  color: white;
+  left: 4em;
+  font-size: 1.4rem;
+}
+
+#sub-text {
 }
