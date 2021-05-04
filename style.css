@@ -365,27 +365,34 @@
 .second-banner {
   background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
     no-repeat;
-  height: 69vh;
+  height: 72vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  filter: brightness(50%);
 }
 
 #little-about {
   position: absolute;
   top: 280rem;
-  color: white;
-  left: 5em;
+  color: oldlace;
+  left: 6em;
   font-size: 1rem;
 }
 
 #watch-story-header {
   position: absolute;
   top: 284rem;
-  color: white;
-  left: 4em;
-  font-size: 1.4rem;
+  color: oldlace;
+  left: 1.1em;
+  font-size: 2.3rem;
+  text-align: justify;
 }
 
 #sub-text {
+  position: absolute;
+  top: 293rem;
+  color: whitesmoke;
+  left: 1em;
+  font-size: 0.9rem;
 }
