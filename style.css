@@ -476,7 +476,18 @@
 
 .toy-footer {
   background-color: #a5c926;
+  display: flex;
 }
 
-#link-pages {
+.footer-nav {
+  list-style: none;
+  display: flex;
+  margin-top: 3rem;
+  color: white;
+}
+
+#footer-toyStore-p {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
 }
