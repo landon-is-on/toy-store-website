@@ -399,4 +399,30 @@
 
 #header-kids {
   font-size: 1.4rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 16px;
+}
+
+#side-info-text,
+#for-free {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+#kids-playing {
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+#kids-button {
+  background-color: #a5c926;
+  border-radius: 24px;
+  color: #fff;
+  padding: 12px, 28px, 12px, 28px;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  margin-bottom: 119px;
 }
