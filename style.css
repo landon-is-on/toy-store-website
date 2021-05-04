@@ -432,3 +432,44 @@
 .kids {
   background-color: #f0f0f0;
 }
+.look-for-toys {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#new-toys {
+  background-color: #a5c926;
+  border-radius: 24px;
+  color: #fff;
+  padding: 12px, 28px, 12px, 28px;
+  width: 16rem;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 119px;
+  margin-top: 16px;
+}
+
+#toy-div {
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 24px 24px 32px 24px;
+  margin: 20px 16px 21px 16px;
+}
+
+#come-look-button {
+  border-radius: 1rem;
+  width: 16rem;
+  height: 45px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#toy-text {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+#toy-text:hover {
+  color: #a5c926;
+}
