@@ -83,7 +83,7 @@
   text-align: justify;
 }
 .icon {
-  color: #fff;
+  color: rgb(105, 47, 47);
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -128,7 +128,7 @@
     display: block;
     padding: 40px 0;
     text-align: center;
-    background: #111;
+    background: white;
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list {
