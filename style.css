@@ -474,20 +474,30 @@
   color: #a5c926;
 }
 
+nav {
+  display: flex;
+
+  align-items: center;
+}
 .toy-footer {
   background-color: #a5c926;
   display: flex;
 }
 
 .footer-nav {
-  list-style: none;
   display: flex;
-  margin-top: 3rem;
   color: white;
+  justify-content: space-around;
 }
-
-#footer-toyStore-p {
-  text-align: center;
+.footer-nav li {
+  list-style: none;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+/*#footer-toyStore-p {
   margin-bottom: 1rem;
   color: white;
 }
+*/
