@@ -497,3 +497,9 @@
   margin-bottom: 1.1rem;
   font-size: 1.6rem;
 }
+
+@media screen and (min-width: 873px) {
+  .hero-intro {
+    margin-left: 12rem;
+  }
+}
