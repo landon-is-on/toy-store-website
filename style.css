@@ -362,6 +362,10 @@
   font-size: 1rem;
 }
 
+.all-story-hidden {
+  display: none;
+}
+
 .second-banner {
   background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
     no-repeat;
@@ -370,10 +374,6 @@
   background-position: center;
   background-attachment: fixed;
   filter: brightness(50%);
-}
-
-#all-story-hidden {
-  display: hidden;
 }
 
 #little-about {
@@ -602,7 +602,7 @@
 
   #product-little-friend {
     margin-left: 13rem;
-    margin-right: 5.9rem;
+    margin-right: 22.8rem;
   }
   #little-about {
     display: none;
