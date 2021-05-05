@@ -502,4 +502,34 @@
   .hero-intro {
     margin-left: 12rem;
   }
+  #kids-playing {
+    margin-left: 14.5rem;
+  }
+  #kids-button {
+    margin-left: 16rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero-intro {
+    margin-left: 12rem;
+  }
+  #kids-playing {
+    margin-left: 22rem;
+  }
+  #kids-button {
+    margin-left: 27rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hero-intro {
+    margin-left: 36rem;
+  }
+  #kids-playing {
+    margin-left: 22rem;
+  }
+  #kids-button {
+    margin-left: 27rem;
+  }
 }
