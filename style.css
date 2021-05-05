@@ -476,6 +476,7 @@
 
 .toy-footer {
   background-color: #a5c926;
+  height: 20vh;
 }
 
 .footer-nav {
@@ -486,13 +487,13 @@
 .footer-nav li {
   display: inline-block;
   list-style: none;
+  font-size: 1rem;
 }
 .footer-nav a {
   color: white;
   text-decoration: none;
 }
-/*#footer-toyStore-p {
-  margin-bottom: 1rem;
-  color: white;
+#footer-toyStore-p {
+  margin-bottom: 1.1rem;
+  font-size: 1.6rem;
 }
-*/
