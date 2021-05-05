@@ -372,6 +372,10 @@
   filter: brightness(50%);
 }
 
+#all-story-hidden {
+  display: hidden;
+}
+
 #little-about {
   position: absolute;
   top: 280rem;
@@ -539,9 +543,11 @@
   }
   #stuffed-Animals {
     width: 50%;
+    margin-bottom: 3rem;
   }
   #wooden-toys {
     width: 50%;
+    margin-bottom: 3rem;
   }
 
   #kids-playing {
@@ -552,7 +558,7 @@
   }
 
   #product-teddy-bear {
-    margin-left: 13rem;
+    margin-left: 10rem;
   }
 
   #product-mega-plush {
@@ -562,9 +568,58 @@
   #product-cute-dog {
     margin-left: 13rem;
   }
+
+  #product-little-friend {
+    margin-left: 13rem;
+    margin-right: 5.91rem;
+  }
+
+  #little-about {
+    display: none;
+  }
+
+  #watch-story-header {
+    display: none;
+  }
+
+  #sub-text {
+    display: none;
+  }
 }
 
-#product-little-friend {
-  margin-left: 13rem;
-  margin-right: 19.9rem;
+@media screen and (min-width: 1600px) {
+  #product-teddy-bear {
+    margin-left: 10rem;
+  }
+
+  #product-mega-plush {
+    margin-left: 13rem;
+  }
+
+  #product-cute-dog {
+    margin-left: 13rem;
+  }
+
+  #product-little-friend {
+    margin-left: 13rem;
+    margin-right: 5.9rem;
+  }
+  #little-about {
+    display: none;
+  }
+
+  #watch-story-header {
+    display: none;
+  }
+
+  #sub-text {
+    display: none;
+  }
+
+  #kids-playing {
+    margin-left: 49rem;
+  }
+  #kids-button {
+    margin-left: 56rem;
+  }
 }
