@@ -524,13 +524,19 @@
 
 @media screen and (min-width: 1500px) {
   .hero-intro {
-    margin-left: 36rem;
+    margin-left: 40rem;
   }
 
   .stuffed-wood {
     display: flex;
   }
-
+  #stuffed-products {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  #all-story-p {
+    display: none;
+  }
   #stuffed-Animals {
     width: 50%;
   }
@@ -539,9 +545,26 @@
   }
 
   #kids-playing {
-    margin-left: 22rem;
+    margin-left: 38rem;
   }
   #kids-button {
-    margin-left: 27rem;
+    margin-left: 44rem;
   }
+
+  #product-teddy-bear {
+    margin-left: 13rem;
+  }
+
+  #product-mega-plush {
+    margin-left: 13rem;
+  }
+
+  #product-cute-dog {
+    margin-left: 13rem;
+  }
+}
+
+#product-little-friend {
+  margin-left: 13rem;
+  margin-right: 19.9rem;
 }
