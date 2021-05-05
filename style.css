@@ -474,14 +474,8 @@
   color: #a5c926;
 }
 
-nav {
-  display: flex;
-
-  align-items: center;
-}
 .toy-footer {
   background-color: #a5c926;
-  display: flex;
 }
 
 .footer-nav {
@@ -490,6 +484,7 @@ nav {
   justify-content: space-around;
 }
 .footer-nav li {
+  display: inline-block;
   list-style: none;
 }
 .footer-nav a {
