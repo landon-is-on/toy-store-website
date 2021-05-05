@@ -526,6 +526,18 @@
   .hero-intro {
     margin-left: 36rem;
   }
+
+  .stuffed-wood {
+    display: flex;
+  }
+
+  #stuffed-Animals {
+    width: 50%;
+  }
+  #wooden-toys {
+    width: 50%;
+  }
+
   #kids-playing {
     margin-left: 22rem;
   }
