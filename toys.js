@@ -17,39 +17,21 @@ window.onscroll = ()=>{
 }
 
 
-import axios from "axios";
 
-const options = {
-  method: 'GET',
-  url: 'https://amazon-product-reviews-keywords.p.rapidapi.com/product/reviews',
-  params: {asin: 'B07XQXZXJC', country: 'US', variants: '1', top: '0'},
-  headers: {
-    'x-rapidapi-key': '85b41c49e7msh15d7722915937e6p134ab0jsnf9615f398a61',
-    'x-rapidapi-host': 'amazon-product-reviews-keywords.p.rapidapi.com'
-  }
-};
-
-
-
-
-
-const form = document.querySelector('#searchForm');
-const button = document.getElementById("#new-toys");
-
-import axios from "axios";
-
-const options = {
-  method: 'GET',
-  url: 'https://amazon-product-reviews-keywords.p.rapidapi.com/product/search',
-  params: {keyword: 'toys', country: 'US', category: 'aps'},
-  headers: {
-    'x-rapidapi-key': '85b41c49e7msh15d7722915937e6p134ab0jsnf9615f398a61',
-    'x-rapidapi-host': 'amazon-product-reviews-keywords.p.rapidapi.com'
-  }
-};
-
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
+fetch("https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/tt1375666", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "85b41c49e7msh15d7722915937e6p134ab0jsnf9615f398a61",
+		"x-rapidapi-host": "imdb-internet-movie-database-unofficial.p.rapidapi.com"
+	}
+})
+.then(response => response.json()) 
+.then(response => {
+	console.log(response);
+	console.log(response.title);
+})
+.catch(err => {
+	console.error(err);
 });
+
+
