@@ -43,8 +43,6 @@ form = document.querySelector('#searchForm');
       const searchTerm = form.elements.query.value;
       const res = await axios.get(`https://imdb-internet-movie-database-unofficial.p.rapidapi.com/search/${searchTerm}`);
       console.log(res.data);
-      
-      form.addEventListener('click', async function (e) {
-        console.log(res.data);
-      })
     })
+  
+  
