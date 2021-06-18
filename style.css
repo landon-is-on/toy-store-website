@@ -265,6 +265,31 @@
   justify-content:space-evenly;
 }
 
+#teddyBear-img{
+  margin-top: 1rem;
+}
+
+#stuffedAnimals-p {
+text-align: center;
+}
+
+#greenButton {
+  background-color: #a5c926;
+  border-radius: 24px;
+  color: #fff;
+  padding: 12px, 28px, 12px, 28px;
+  width: 120px;
+  height: 48px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: .5rem;
+  border: none;
+}
+
+/*wood toys----------------------*/
+#stuffed-animals-header{
+margin-top: 3rem;
+}
 
 
 /*        *** second pic ***                       */
