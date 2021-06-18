@@ -153,8 +153,8 @@
 }
 /*        *** hero ***                       */
 .hero-intro {
-  height: auto;
-  width: 100%;
+  height: 20rem;
+  width: 30rem;
   max-width: 480px;
   background-color: #fff;
   display: flex;
@@ -162,7 +162,7 @@
   align-content: center;
   justify-content: center;
   position: relative;
-  top: 11.2rem;
+  top: 14rem;
   margin-bottom: 40px;
   border-radius: 16px;
 }
@@ -198,6 +198,7 @@
   height: 48px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: .5rem;
   border: none;
 }
 
@@ -257,130 +258,20 @@
   font-size: 1rem;
 }
 
-#stuffed-products {
-  background-color: #f0f0f0;
+/*        stuffed animals section      */
+
+.stuffedAnimal-section{
+  display: flex;
+  justify-content:space-evenly;
 }
 
-#product-teddy-bear {
-  background-color: white;
-  text-align: center;
-  border-radius: 1rem;
-  padding: 24px 24px 32px 24px;
-  margin: 20px 16px 21px 16px;
-}
 
-#teddy-bear {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
 
-#product-teddy-p {
-  text-transform: capitalize;
-  padding-bottom: 0.2rem;
-  font-size: 1rem;
-}
-
-#product-teddy-button {
-  background-color: #a5c926;
-  color: white;
-  border-radius: 1rem;
-  padding: 2px 12px 2px 12px;
-  font-size: 1rem;
-  border: none;
-}
-
-#product-mega-plush {
-  background-color: white;
-  text-align: center;
-  border-radius: 1rem;
-  padding: 24px 24px 32px 24px;
-  margin: 20px 16px 21px 16px;
-}
-
-#mega-plush-pic {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-#product-mega-p {
-  text-transform: capitalize;
-  padding-bottom: 0.2rem;
-  font-size: 1rem;
-}
-
-#product-mega-button {
-  background-color: #a5c926;
-  color: white;
-  border-radius: 1rem;
-  padding: 2px 12px 2px 12px;
-  font-size: 1rem;
-  border: none;
-}
-
-#product-cute-dog {
-  background-color: white;
-  text-align: center;
-  border-radius: 1rem;
-  padding: 24px 24px 32px 24px;
-  margin: 20px 16px 21px 16px;
-}
-
-#cute-dog-pic {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-#product-dog-p {
-  text-transform: capitalize;
-  padding-bottom: 0.2rem;
-  font-size: 1rem;
-}
-
-#product-dog-button {
-  background-color: #a5c926;
-  color: white;
-  border-radius: 1rem;
-  padding: 2px 12px 2px 12px;
-  font-size: 1rem;
-  border: none;
-}
-
-#product-little-friend {
-  background-color: white;
-  text-align: center;
-  border-radius: 1rem;
-  padding: 24px 24px 32px 24px;
-  margin: 20px 16px 21px 16px;
-}
-
-#little-friend-pic {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-#product-friend-p {
-  text-transform: capitalize;
-  padding-bottom: 0.2rem;
-  font-size: 1rem;
-}
-
-#product-friend-button {
-  background-color: #a5c926;
-  color: white;
-  border-radius: 1rem;
-  padding: 2px 12px 2px 12px;
-  font-size: 1rem;
-  border: none;
-}
-
-.all-story-hidden {
-  display: none;
-}
 /*        *** second pic ***                       */
 .second-banner {
   background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
     no-repeat;
-  height: 80vh;
+  height: 30rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
