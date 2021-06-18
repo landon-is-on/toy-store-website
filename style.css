@@ -154,15 +154,15 @@
 /*        *** hero ***                       */
 .hero-intro {
   height: 20rem;
-  width: 30rem;
-  max-width: 480px;
+  width: 35rem;
+ 
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   position: relative;
-  top: 14rem;
+  top: 20rem;
   margin-bottom: 40px;
   border-radius: 16px;
 }
@@ -292,7 +292,7 @@ margin-top: 3rem;
 }
 
 
-/*        *** second pic ***                       */
+/*        -------------second pic--------------*/
 .second-banner {
   background: url("https://uploads-ssl.webflow.com/608a2332231e7dc0e7f31415/608a2332231e7d1ecbf3146d_tim-gouw-165547-unsplash.jpg")
     no-repeat;
@@ -311,21 +311,28 @@ margin-top: 3rem;
   font-size: 1rem;
 }
 
-#watch-story-header {
-  position: absolute;
-  top: 284rem;
-  color: oldlace;
-  left: 1.1em;
-  font-size: 2.3rem;
-  text-align: justify;
+#stickypic-h{
+position: absolute;
+top: 138rem;
+color: white;
+left: 51rem;
+font-size: 2rem;
 }
 
-#sub-text {
+#stickypicTop-p {
   position: absolute;
-  top: 293rem;
-  color: whitesmoke;
-  left: 1em;
-  font-size: 0.9rem;
+top: 136rem;
+color: white;
+left: 55rem;
+}
+
+#stickypicBottom-p{
+  position: absolute;
+  top: 142rem;
+  color: white;
+  left: 35rem;
+font-size: .9rem;
+
 }
 
 #header-kids {
@@ -506,17 +513,7 @@ margin-top: 3rem;
     margin-right: 5.91rem;
   }
 
-  #little-about {
-    display: none;
-  }
-
-  #watch-story-header {
-    display: none;
-  }
-
-  #sub-text {
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: 1600px) {
@@ -536,18 +533,7 @@ margin-top: 3rem;
     margin-left: 13rem;
     margin-right: 22.8rem;
   }
-  #little-about {
-    display: none;
-  }
-
-  #watch-story-header {
-    display: none;
-  }
-
-  #sub-text {
-    display: none;
-  }
-
+  
   #kids-playing {
     margin-left: 49rem;
   }
