@@ -155,16 +155,16 @@
 .hero-intro {
   height: 20rem;
   width: 35rem;
- 
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   top: 20rem;
   margin-bottom: 40px;
   border-radius: 16px;
+left: 40rem;
 }
 
 #hero-intro-title {
@@ -187,7 +187,9 @@
   font-weight: 400px;
   font-style: normal;
   text-decoration: none;
+
 }
+
 
 #hero-intro-button {
   background-color: #a5c926;
@@ -200,15 +202,17 @@
   margin: 0 auto;
   margin-bottom: .5rem;
   border: none;
+  cursor:pointer;
 }
 
 .stuffed-wood{
 justify-content: center;
+display: flex;
 }
 
 #stuffed-Animals-div {
   margin-top: 5rem;
-  
+  margin-left: 1rem;
   width: 35rem;
   height: 20rem;
   background-color: #ffc12c;
@@ -228,6 +232,7 @@ justify-content: center;
   border-radius: 24px;
   margin-bottom: 3rem;
   border: none;
+  cursor:pointer;
 }
 
 #wooden-toys-div {
@@ -252,6 +257,7 @@ justify-content: center;
   border-radius: 24px;
   margin-bottom: 3rem;
   border: none;
+  cursor:pointer;
 }
 /*        *** shop ***                       */
 #stuffed-animals-header {
@@ -308,6 +314,7 @@ text-align: center;
   border: none;
 margin-left: .5rem;
 transition: all 100ms ease-in; 
+cursor:pointer;
 }
 
 #greenButton:hover {
@@ -407,7 +414,8 @@ margin-bottom: 1rem;
     text-align: center;
     border: none;
   margin-left: 10rem;
-  }
+  cursor:pointer;  
+}
 
 .kids {
   background-color: #f0f0f0;
@@ -440,14 +448,14 @@ justify-content: center;
   margin-bottom: 119px;
   margin-top: 16px;
   border: none;
+  cursor:pointer;
 }
 
 #toy-div {
   background-color: white;
   text-align: center;
-  border-radius: 1rem;
-  padding: 24px 24px 32px 24px;
-  margin: 20px 16px 21px 16px;
+  
+  
 }
 
 #come-look-button {
@@ -456,6 +464,7 @@ justify-content: center;
   height: 45px;
   text-align: center;
   font-size: 1rem;
+  cursor:pointer;
 }
 
 #toy-text {
@@ -494,103 +503,110 @@ justify-content: center;
   font-size: 1.6rem;
 }
 /*        *** media ***                       */
-@media screen and (min-width: 873px) {
+@media screen and (max-width: 643px) {
+  #kids-div{
+    flex-direction: column;
+  padding: auto;
+  }
+  #kids-playing-i{ 
+    width: 25rem;
+  }
+#allSideText {
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .stuffedAnimal-section {
+flex-direction: column;
+  }
+.stuffed-wood{
+  flex-direction: column;
+
+}
+#stuffed-Animals-div{
+  width: 25rem;
+}
+#wooden-toys-div{
+  width: 25rem;
+}
+#kids-playing-i{ 
+  width: 13rem;
+margin-left: 7rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+#side-info-text{
+  font-size: .7rem;
+  text-align:center;
+}
+#kids-div{
+  padding:0%;
+  width: 2rem;
+}
+
+#allSideText {
+padding-right: 0%;
+width: 26rem;
+}
+.hero-intro{
+  width: 10rem;
+  height:10rem ;
+  left: 1rem;
+}
+#centeritems{
+  text-align: center;
+}
+
+#stickypicTop-p{
+  top: 248rem;
+ 
+  }
+  #stickypic-h{
+    top: 249rem;
+    
+  }
+  #stickypicBottom-p{
+    top: 254rem;
+    
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+  #stickypicTop-p{
+  left: 10rem;
+  }
+  #stickypic-h{
+    left: 10rem;
+  }
+  #stickypicBottom-p{
+    left: 10rem;
+  }
   .hero-intro {
-    margin-left: 12rem;
-  }
-  #kids-playing {
-    margin-left: 14.5rem;
-  }
-  #kids-button {
-    margin-left: 16rem;
+    left: 10rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .hero-intro {
-    margin-left: 12rem;
-  }
-  #kids-playing {
-    margin-left: 22rem;
-  }
-  #kids-button {
-    margin-left: 27rem;
+@media screen and (max-width: 722px) {
+  .hero-intro{
+    width: 20rem;
+    height:20rem ;
+    left: 2rem;
   }
 }
 
-@media screen and (min-width: 1500px) {
-  .hero-intro {
-    margin-left: 40rem;
+
+@media screen and (max-width: 375px) {
+  #allSideText {
+    padding-right: 0%;
+    width: 23rem;
+    }
+    #stuffed-Animals-div{
+      width: 20rem;
+    }
+    #wooden-toys-div{
+      width: 20rem;
+    }
   }
 
-  .stuffed-wood {
-    display: flex;
-  }
-  #stuffed-products {
-    display: inline-flex;
-    justify-content: space-evenly;
-  }
-  #all-story-p {
-    display: none;
-  }
-  #stuffed-Animals {
-    width: 50%;
-    margin-bottom: 3rem;
-  }
-  #wooden-toys {
-    width: 50%;
-    margin-bottom: 3rem;
-  }
-
-  #kids-playing {
-    margin-left: 38rem;
-  }
-  #kids-button {
-    margin-left: 44rem;
-  }
-
-  #product-teddy-bear {
-    margin-left: 10rem;
-  }
-
-  #product-mega-plush {
-    margin-left: 13rem;
-  }
-
-  #product-cute-dog {
-    margin-left: 13rem;
-  }
-
-  #product-little-friend {
-    margin-left: 13rem;
-    margin-right: 5.91rem;
-  }
-
-  
-}
-
-@media screen and (min-width: 1600px) {
-  #product-teddy-bear {
-    margin-left: 10rem;
-  }
-
-  #product-mega-plush {
-    margin-left: 13rem;
-  }
-
-  #product-cute-dog {
-    margin-left: 13rem;
-  }
-
-  #product-little-friend {
-    margin-left: 13rem;
-    margin-right: 22.8rem;
-  }
-  
-  #kids-playing {
-    margin-left: 49rem;
-  }
-  #kids-button {
-    margin-left: 56rem;
-  }
-}
