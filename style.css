@@ -93,6 +93,13 @@
   right: 30px;
   top: 20px;
 }
+
+#searchNav{
+border-radius: .2rem;
+
+padding-left: .1rem;
+}
+
 @media (max-width: 1230px) {
   .content {
     padding: 0 60px;
@@ -380,7 +387,7 @@ font-size: .9rem;
   padding-top: 2rem;
   font-size: 2rem;
   text-align: center;
-  
+  font-weight: bold;
   
 }
 
@@ -484,24 +491,35 @@ justify-content: center;
 .footer-nav {
   display: flex;
   color: white;
-  justify-content: space-around;
+  justify-content:center;
   text-align: center;
+  background-color: #a5c926;
 }
 .footer-nav li {
-  display: inline-block;
   list-style: none;
-  font-size: 1rem;
-  margin-top: 2rem;
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
 .footer-nav a {
   color: white;
   text-decoration: none;
-  padding-left: 3rem;
+  margin-right: 1.5rem;
+margin-left: 1.5rem;
 }
 #footer-toyStore-p {
   margin-bottom: 1.1rem;
   font-size: 1.6rem;
+text-align: center;
 }
+/*---------water mark-----------*/
+#waterMark{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: .7rem;
+  
+  background-color: #a5c926;
+}
+/*--------------end of css---------------------*/
 /*        *** media ***                       */
 @media screen and (max-width: 643px) {
   #kids-div{
@@ -532,7 +550,7 @@ flex-direction: column;
 }
 #kids-playing-i{ 
   width: 13rem;
-margin-left: 7rem;
+margin-left: 6rem;
 margin-top: 1rem;
 margin-bottom: 1rem;
 }
@@ -570,7 +588,12 @@ width: 26rem;
     top: 254rem;
     
   }
-
+  .footer-nav{
+   flex-direction: column; 
+  }
+#kids-button-b{
+  margin-left: 8.5rem;
+}
 }
 
 @media screen and (max-width: 1500px) {
