@@ -18,6 +18,10 @@
 ::selection {
   background: rgb(0, 123, 255, 0.3);
 }
+
+#brandName{
+color: #a5c926;
+}
 .content {
   max-width: 1250px;
   margin: auto;
@@ -96,8 +100,8 @@
 
 #searchNav{
 border-radius: .2rem;
-
 padding-left: .1rem;
+border:  thick double #a5c926
 }
 
 @media (max-width: 1230px) {
